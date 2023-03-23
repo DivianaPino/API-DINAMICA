@@ -1,0 +1,14 @@
+#Para no dejar acceder directamente a las carpetas
+Options All -Indexes
+
+#activar las opciones 
+Options -MultiViews
+
+RewriteEngine On
+
+#condicion para que cualquier parametro que se coloque en la URL
+#redireccione al archivo index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+

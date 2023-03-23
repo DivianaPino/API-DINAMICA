@@ -1,0 +1,275 @@
+[09-Mar-2023 00:46:50 UTC] PHP Notice:  Undefined variable: linkToText in C:\wamp\www\cursos\apirest-dinamica\models\get.model.php on line 318
+[09-Mar-2023 00:46:50 UTC] PHP Stack trace:
+[09-Mar-2023 00:46:50 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[09-Mar-2023 00:46:50 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[09-Mar-2023 00:46:50 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[09-Mar-2023 00:46:50 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:73
+[09-Mar-2023 00:46:50 UTC] PHP   5. GetController->getDataSearch() C:\wamp\www\cursos\apirest-dinamica\routes\services\get.php:49
+[09-Mar-2023 00:46:50 UTC] PHP   6. GetModel::getDataSearch() C:\wamp\www\cursos\apirest-dinamica\controllers\get.controller.php:71
+[09-Mar-2023 00:47:08 UTC] PHP Notice:  Undefined variable: linktoText in C:\wamp\www\cursos\apirest-dinamica\models\get.model.php on line 308
+[09-Mar-2023 00:47:08 UTC] PHP Stack trace:
+[09-Mar-2023 00:47:08 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[09-Mar-2023 00:47:08 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[09-Mar-2023 00:47:08 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[09-Mar-2023 00:47:08 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:73
+[09-Mar-2023 00:47:08 UTC] PHP   5. GetController->getDataSearch() C:\wamp\www\cursos\apirest-dinamica\routes\services\get.php:49
+[09-Mar-2023 00:47:08 UTC] PHP   6. GetModel::getDataSearch() C:\wamp\www\cursos\apirest-dinamica\controllers\get.controller.php:71
+[09-Mar-2023 22:11:24 UTC] PHP Notice:  Undefined variable: table in C:\wamp\www\cursos\apirest-dinamica\models\get.model.php on line 550
+[09-Mar-2023 22:11:24 UTC] PHP Stack trace:
+[09-Mar-2023 22:11:24 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[09-Mar-2023 22:11:24 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[09-Mar-2023 22:11:24 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[09-Mar-2023 22:11:24 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:73
+[09-Mar-2023 22:11:24 UTC] PHP   5. GetController::getRelDataRange() C:\wamp\www\cursos\apirest-dinamica\routes\services\get.php:71
+[09-Mar-2023 22:11:24 UTC] PHP   6. GetModel::getRelDataRange() C:\wamp\www\cursos\apirest-dinamica\controllers\get.controller.php:109
+[11-Mar-2023 14:31:39 UTC] PHP Deprecated:  parse_str(): Calling parse_str() without the result argument is deprecated in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php on line 13
+[11-Mar-2023 14:31:39 UTC] PHP Stack trace:
+[11-Mar-2023 14:31:39 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[11-Mar-2023 14:31:39 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[11-Mar-2023 14:31:39 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[11-Mar-2023 14:31:39 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:94
+[11-Mar-2023 14:31:39 UTC] PHP   5. parse_str() C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php:13
+[11-Mar-2023 14:32:27 UTC] PHP Warning:  file_get_contents() expects parameter 2 to be bool, array given in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php on line 13
+[11-Mar-2023 14:32:27 UTC] PHP Stack trace:
+[11-Mar-2023 14:32:27 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[11-Mar-2023 14:32:27 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[11-Mar-2023 14:32:27 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[11-Mar-2023 14:32:27 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:94
+[11-Mar-2023 14:32:27 UTC] PHP   5. file_get_contents() C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php:13
+[11-Mar-2023 14:32:27 UTC] PHP Deprecated:  parse_str(): Calling parse_str() without the result argument is deprecated in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php on line 13
+[11-Mar-2023 14:32:27 UTC] PHP Stack trace:
+[11-Mar-2023 14:32:27 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[11-Mar-2023 14:32:27 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[11-Mar-2023 14:32:27 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[11-Mar-2023 14:32:27 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:94
+[11-Mar-2023 14:32:27 UTC] PHP   5. parse_str() C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php:13
+[11-Mar-2023 14:43:21 UTC] PHP Notice:  Undefined property: RoutesController::$upload in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php on line 10
+[11-Mar-2023 14:43:21 UTC] PHP Stack trace:
+[11-Mar-2023 14:43:21 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[11-Mar-2023 14:43:21 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[11-Mar-2023 14:43:21 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[11-Mar-2023 14:43:21 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:94
+[11-Mar-2023 14:43:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function data() on null in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php:10
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(94): include()
+#1 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#2 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#3 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php on line 10
+[11-Mar-2023 15:09:55 UTC] PHP Warning:  file_get_contents() expects parameter 2 to be bool, array given in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php on line 13
+[11-Mar-2023 15:09:55 UTC] PHP Stack trace:
+[11-Mar-2023 15:09:55 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[11-Mar-2023 15:09:55 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[11-Mar-2023 15:09:55 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[11-Mar-2023 15:09:55 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:94
+[11-Mar-2023 15:09:55 UTC] PHP   5. file_get_contents() C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php:13
+[11-Mar-2023 15:09:55 UTC] PHP Deprecated:  parse_str(): Calling parse_str() without the result argument is deprecated in C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php on line 13
+[11-Mar-2023 15:09:55 UTC] PHP Stack trace:
+[11-Mar-2023 15:09:55 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[11-Mar-2023 15:09:55 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[11-Mar-2023 15:09:55 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[11-Mar-2023 15:09:55 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:94
+[11-Mar-2023 15:09:55 UTC] PHP   5. parse_str() C:\wamp\www\cursos\apirest-dinamica\routes\services\put.php:13
+[15-Mar-2023 20:24:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\models\connection.php on line 116 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\models\connection.php(116): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(65): Connection::jwt('25', 'instructor@corr...')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#3 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#5 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 21:07:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\models\connection.php on line 116 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\models\connection.php(116): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(65): Connection::jwt('25', 'instructor@corr...')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#3 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#5 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 21:13:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\models\connection.php on line 116 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\models\connection.php(116): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(65): Connection::jwt('25', 'instructor@corr...')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#3 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#5 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 21:18:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\models\connection.php on line 116 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\models\connection.php(116): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(65): Connection::jwt('25', 'instructor@corr...')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#3 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#5 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:05:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 70 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(70): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:06:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 70 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(70): Firebase\JWT\JWT::encode(Array, 'dfhsdfg34dfchs4...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:08:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 70 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(70): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:17:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 70 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(70): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:22:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 70 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(70): Firebase\JWT\JWT::encode(Array, 'dfhsdfg34dfchs4...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:22:46 UTC] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to Firebase\JWT\JWT::encode() must be of the type string, null given, called in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 70 and defined in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(70): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...', NULL)
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:24:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 71 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(71): Firebase\JWT\JWT::encode(Array, 'fshfhyrfhdghr14...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:28:09 UTC] PHP Notice:  Undefined variable: payload in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 72
+[15-Mar-2023 23:28:09 UTC] PHP Stack trace:
+[15-Mar-2023 23:28:09 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[15-Mar-2023 23:28:09 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[15-Mar-2023 23:28:09 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[15-Mar-2023 23:28:09 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:85
+[15-Mar-2023 23:28:09 UTC] PHP   5. PostController::postLogin() C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php:60
+[15-Mar-2023 23:28:09 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Firebase\JWT\JWT::encode() must be of the type array, null given, called in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 72 and defined in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(72): Firebase\JWT\JWT::encode(NULL, 'fshfhyrfhdghr14...', 'HS256')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:28:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 87 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(87): Firebase\JWT\JWT::encode(Array, 'dfhsdfg34dfchs4...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[15-Mar-2023 23:32:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 86 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(86): Firebase\JWT\JWT::encode(Array, 'dfhsdfg34dfchs4...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(60): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[17-Mar-2023 18:47:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php on line 62 and at least 3 expected in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php:184
+Stack trace:
+#0 C:\wamp\www\cursos\apirest-dinamica\controllers\post.controller.php(62): Firebase\JWT\JWT::encode(Array, 'dfhsdfg34dfchs4...')
+#1 C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php(50): PostController::postRegister('instructors', Array, 'instructor')
+#2 C:\wamp\www\cursos\apirest-dinamica\routes\routes.php(85): include('C:\\wamp\\www\\cur...')
+#3 C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php(7): include('C:\\wamp\\www\\cur...')
+#4 C:\wamp\www\cursos\apirest-dinamica\index.php(19): RoutesController->index()
+#5 {main}
+  thrown in C:\wamp\www\cursos\apirest-dinamica\vendor\firebase\php-jwt\src\JWT.php on line 184
+[21-Mar-2023 01:57:09 UTC] PHP Notice:  Undefined index: token in C:\wamp\www\cursos\apirest-dinamica\routes\services\post.php on line 69
+[21-Mar-2023 01:57:09 UTC] PHP Stack trace:
+[21-Mar-2023 01:57:09 UTC] PHP   1. {main}() C:\wamp\www\cursos\apirest-dinamica\index.php:0
+[21-Mar-2023 01:57:09 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\apirest-dinamica\index.php:19
+[21-Mar-2023 01:57:09 UTC] PHP   3. include() C:\wamp\www\cursos\apirest-dinamica\controllers\routes.controller.php:7
+[21-Mar-2023 01:57:09 UTC] PHP   4. include() C:\wamp\www\cursos\apirest-dinamica\routes\routes.php:85
+[23-Mar-2023 00:08:10 UTC] PHP Notice:  Undefined variable: linktoText in C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php on line 300
+[23-Mar-2023 00:08:10 UTC] PHP Stack trace:
+[23-Mar-2023 00:08:10 UTC] PHP   1. {main}() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:0
+[23-Mar-2023 00:08:10 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:26
+[23-Mar-2023 00:08:10 UTC] PHP   3. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\routes.controller.php:7
+[23-Mar-2023 00:08:10 UTC] PHP   4. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\routes.php:113
+[23-Mar-2023 00:08:10 UTC] PHP   5. GetController->getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\services\get.php:43
+[23-Mar-2023 00:08:10 UTC] PHP   6. GetModel::getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\get.controller.php:58
+[23-Mar-2023 00:08:10 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php on line 329
+[23-Mar-2023 00:08:10 UTC] PHP Stack trace:
+[23-Mar-2023 00:08:10 UTC] PHP   1. {main}() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:0
+[23-Mar-2023 00:08:10 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:26
+[23-Mar-2023 00:08:10 UTC] PHP   3. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\routes.controller.php:7
+[23-Mar-2023 00:08:10 UTC] PHP   4. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\routes.php:113
+[23-Mar-2023 00:08:10 UTC] PHP   5. GetController->getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\services\get.php:43
+[23-Mar-2023 00:08:10 UTC] PHP   6. GetModel::getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\get.controller.php:58
+[23-Mar-2023 00:08:10 UTC] PHP   7. PDOStatement->execute() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php:329
+[23-Mar-2023 00:08:10 UTC] PHP Notice:  Undefined variable: linktoText in C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php on line 300
+[23-Mar-2023 00:08:10 UTC] PHP Stack trace:
+[23-Mar-2023 00:08:10 UTC] PHP   1. {main}() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:0
+[23-Mar-2023 00:08:10 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:26
+[23-Mar-2023 00:08:10 UTC] PHP   3. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\routes.controller.php:7
+[23-Mar-2023 00:08:10 UTC] PHP   4. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\routes.php:113
+[23-Mar-2023 00:08:10 UTC] PHP   5. GetController->getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\services\get.php:43
+[23-Mar-2023 00:08:10 UTC] PHP   6. GetModel::getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\get.controller.php:58
+[23-Mar-2023 00:08:10 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php on line 329
+[23-Mar-2023 00:08:10 UTC] PHP Stack trace:
+[23-Mar-2023 00:08:10 UTC] PHP   1. {main}() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:0
+[23-Mar-2023 00:08:10 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:26
+[23-Mar-2023 00:08:10 UTC] PHP   3. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\routes.controller.php:7
+[23-Mar-2023 00:08:10 UTC] PHP   4. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\routes.php:113
+[23-Mar-2023 00:08:10 UTC] PHP   5. GetController->getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\services\get.php:43
+[23-Mar-2023 00:08:10 UTC] PHP   6. GetModel::getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\get.controller.php:58
+[23-Mar-2023 00:08:10 UTC] PHP   7. PDOStatement->execute() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php:329
+[23-Mar-2023 00:08:10 UTC] PHP Notice:  Undefined variable: linktoText in C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php on line 300
+[23-Mar-2023 00:08:10 UTC] PHP Stack trace:
+[23-Mar-2023 00:08:10 UTC] PHP   1. {main}() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:0
+[23-Mar-2023 00:08:10 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:26
+[23-Mar-2023 00:08:10 UTC] PHP   3. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\routes.controller.php:7
+[23-Mar-2023 00:08:10 UTC] PHP   4. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\routes.php:113
+[23-Mar-2023 00:08:10 UTC] PHP   5. GetController->getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\services\get.php:43
+[23-Mar-2023 00:08:10 UTC] PHP   6. GetModel::getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\get.controller.php:58
+[23-Mar-2023 00:08:10 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php on line 329
+[23-Mar-2023 00:08:10 UTC] PHP Stack trace:
+[23-Mar-2023 00:08:10 UTC] PHP   1. {main}() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:0
+[23-Mar-2023 00:08:10 UTC] PHP   2. RoutesController->index() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\index.php:26
+[23-Mar-2023 00:08:10 UTC] PHP   3. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\routes.controller.php:7
+[23-Mar-2023 00:08:10 UTC] PHP   4. include() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\routes.php:113
+[23-Mar-2023 00:08:10 UTC] PHP   5. GetController->getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\routes\services\get.php:43
+[23-Mar-2023 00:08:10 UTC] PHP   6. GetModel::getRelDataFilter() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\controllers\get.controller.php:58
+[23-Mar-2023 00:08:10 UTC] PHP   7. PDOStatement->execute() C:\wamp\www\cursos\proyecto-marketplace\api-marketplace\models\get.model.php:329
